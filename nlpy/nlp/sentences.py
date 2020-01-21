@@ -3,7 +3,7 @@ import re
 
 def sentencize(text):
     """Split text to sentences.
-
+    This is useful for writing analysis.
     >>> list(sentencize('How are you? I am fine.'))
     ['How are you?', 'I am fine.']
     """
